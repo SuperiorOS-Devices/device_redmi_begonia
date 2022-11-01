@@ -1,0 +1,3 @@
+[submodule "GrapheneOSCamera"]
+	path = GrapheneOSCamera
+	url = https://github.com/Trinity-ROMS/GrapheneCamera
