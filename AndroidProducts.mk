@@ -15,4 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_begonia.mk
+    $(LOCAL_DIR)/superior_begonia.mk
+
+    COMMON_LUNCH_CHOICES := \
+    superior_begonia-user \
+    superior_begonia-userdebug \
+    superior_begonia-eng
