@@ -78,10 +78,6 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.5.vendor \
     android.hardware.camera.provider@2.6.vendor
 
-# Graphene Camera
-PRODUCT_PACKAGES += \
-    GrapheneOSCamera
-
 # Dex
 # Dex pre-opt
 PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := everything
