@@ -21,9 +21,6 @@ $(call inherit-product, vendor/superior/config/common.mk)
 #SuperiorOS Flags
 SUPERIOR_OFFICIAL := true
 SUPERIOR_GAPPS := minimal
-TARGET_USES_BLUR := true
-TARGET_SUPPORTS_QUICK_TAP := true
-TARGET_DOESNT_LIKE_FLIPENDO := true
 
 # Inherit some extras stuff
 $(call inherit-product-if-exists, vendor/extras/extras.mk)
